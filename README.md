@@ -1,9 +1,11 @@
 ﻿# 📄 Documentação sobre o curso da Udemy 
  
   ## Projetos
-  * [NodeList]() 
-  * [Cronômetro ]() 
-  * [Lista de Tarefas ]() 
+  * JS - [NodeList]() 
+  * JS - [Cronômetro]() 
+  * JS - [Lista de Tarefas]() 
+  * TS - [Test]() 
+  * Node - [Test]() 
  ## JavaScript
   * [Básico]()
   * [Lógica]()
