@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  
+}
+
+.calculadora{
+  width: 400px;
+}
+.display{
+  font-size: 2em;
+  width: 100%;
+  text-align: right ;
+}
+.btn{
+  width: 100%;
+  height: 40px;
+  font-size: 1em;
+  cursor: pointer;
+}
