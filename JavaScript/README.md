@@ -90,38 +90,39 @@ console.dir(funcao);
 */
 
 function criarPessoa(nome, sobrenome, altura, peso) {
-  return {
-    nome,
+  return{
+    nome, 
     sobrenome,
-    // Utilizando getter
-    get nomeCompleto() {
-      return `${this.nome} ${this.sobrenome} }`;
+    // Utilizando getter  
+    get nomeCompleto(){
+       return `${this.nome} ${this.sobrenome} }`
     },
     // Utilizando setter
-    set nomeCompleto(valor) {
-      valor = valor.split(" ");
-      this.nome = valor.shift();
-      this.sobrenome = valor.join(" ");
-    },
+    set nomeCompleto(valor){
+      valor = valor.split(' ') 
+      this.nome = valor.shift()
+      this.sobrenome = valor.join(' ')
+    }, 
     //Funções declaradas dentro de OBJ são chamadas de Métodos
-    falando: function (assunto) {
-      return `${nome} ${this.sobrenome} está ${assunto}`;
+    falando: function(assunto) {
+      return `${nome} ${this.sobrenome} está ${assunto}`
     },
     altura,
     peso,
-    get imc() {
-      const indice = this.peso / this.altura ** 2;
-      return indice.toFixed(2);
-    },
-  };
+    get imc(){ 
+      const indice = this.peso / (this.altura ** 2)
+      return indice.toFixed(2)
+    }
+  }
 }
-const pessoaUm = criarPessoa("Felipe", "Motta", 1.7, 80);
-const pessoaDois = criarPessoa("Joao", "Vitor", 1.8, 60);
-const pessoaTres = criarPessoa("Ana", "Carolina", 1.5, 180);
+const pessoaUm = criarPessoa('Felipe', 'Motta', 1.70, 80) 
+const pessoaDois = criarPessoa('Joao', 'Vitor', 1.80, 60) 
+const pessoaTres = criarPessoa('Ana', 'Carolina', 1.50, 180) 
 // Ao invés de chamar [ pessoaUm.imc() ] utilizo [ pessoaUm.imc ]
-console.log(pessoaUm.imc);
-console.log(pessoaDois.imc);
-console.log(pessoaTres.imc);
+console.log(pessoaUm.imc)   
+console.log(pessoaDois.imc) 
+console.log(pessoaTres.imc) 
+
 ```
 
 ##### Generating Fanction
@@ -138,28 +139,28 @@ ATENÇÃO: CASO TENHA UM RETURN DENTRO DE UMA FUNÇÃO GERADORA, A FUNCÃO QUEBR
 
 // Exemplo um
 function* geradora() {
-  console.log("\nFunção geradorta simples ");
+console.log("\nFunção geradorta simples ");
   //Código qualquer
   yield "Valor um";
   //Código qualquer
   yield "Valor dois";
   //Código qualquer
-  yield "Valor tres";
+    yield "Valor tres";
 }
-const geradoraUm = geradora();
-for (let valor of geradoraUm) {
-  console.log(valor);
+const geradoraUm = geradora()
+for(let valor of geradoraUm){
+  console.log(valor); 
 }
 
 // Exemplo dois, essa é uma função geradora infinita
 function* geradoraInfinita() {
   let i = 0;
   while (true) {
-    yield i;
-    i++;
+    yield i
+    i++
   }
 }
-const geradoraDois = geradoraInfinita();
+const geradoraDois = geradoraInfinita()
 console.log("\nFunção geradorta infinita ");
 console.log(geradoraDois.next().value); // 0
 console.log(geradoraDois.next().value); // 1
@@ -170,77 +171,52 @@ console.log(geradoraDois.next().value); // 5
 
 // Exemplo Tres, Geradora que delega tarefass para outras geradoras
 function* geradoraTarefa() {
-  yield "Tarefa" + 1;
-  yield "Tarefa" + 2;
-  yield "Tarefa" + 3;
+  yield "Tarefa" + 1
+  yield "Tarefa" + 2
+  yield "Tarefa" + 3
 }
-function* tarefaUm() {
-  yield* geradoraTarefa();
-  yield "Tarefa" + 4;
-  yield "Tarefa" + 5;
-  yield "Tarefa" + 6;
+function* tarefaUm(){
+  yield* geradoraTarefa()
+  yield "Tarefa" + 4
+  yield "Tarefa" + 5
+  yield "Tarefa" + 6
 }
 console.log("\nFunção geradora que delega tarefas a outras funções geradoras");
-const mostraTarefas = tarefaUm();
-for (let tarefa of mostraTarefas) {
+const mostraTarefas = tarefaUm()
+for(let tarefa of mostraTarefas){
   console.log(tarefa);
 }
 
 // Exemplo Tres, Geradora que delega tarefass para outras geradoras
 function* geradoraComFuncoesDentro() {
-  yield function () {
+  yield function (){
     console.log("Função Um");
-  };
-  yield function () {
+  }
+  yield function (){
     console.log("Função dois");
-  };
-  yield function () {
+  }
+  yield function (){
     console.log("Função Tres");
-  };
+  }
 }
 console.log("\nFunção geradora que possui funções dentro dela");
-const recebeGeradoraComFuncoesDentro = geradoraComFuncoesDentro();
-const funcaoUm = recebeGeradoraComFuncoesDentro.next().value;
-const funcaoDois = recebeGeradoraComFuncoesDentro.next().value;
-funcaoUm();
-funcaoDois();
+const recebeGeradoraComFuncoesDentro = geradoraComFuncoesDentro()
+const funcaoUm = recebeGeradoraComFuncoesDentro.next().value
+const funcaoDois = recebeGeradoraComFuncoesDentro.next().value
+funcaoUm()
+funcaoDois()
 ```
 
 ##### IEFF
 
 ```javascript
-/*
-  IIEF -> Immediately invoke function expression
-  Funções auto invocadas ou Funções imediatas
- */
 
-// essa função não enxerga o escopo global
-(function () {
-  const nome = "JoaozinhoDev, está no escopo fechado";
-  console.log(nome);
-})();
-
-// escopo global
-const nome = "Felipe, está no escopo global";
-console.log(nome);
 ```
 
 ##### Recursive Function
 
 ```javascript
-/*
-Funções recursivas são funções que chamam elas mesmas
-ATENÇÃO: EXISTE UM LIMITE QUE O NAVEGADOR OU O NODE IMPÕE PARA AS 
-CHAMADA RECURSICA
-*/
 
-function recursiva(max) {
-  console.log(max);
-  if (max >= 10) return;
-  max++;
-  recursiva(max);
-}
-recursiva(0);
 ```
 
 ### Arrays
