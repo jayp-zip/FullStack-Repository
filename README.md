@@ -8,5 +8,5 @@
 
 ### Linguagem, Framework e Bibliotecas utilizadas
 ## [JavaSript ](./JavaScript/README.md)
-## [TypeScript](./TypeScript/READM.md)
-## [NodeJs](./TypeScript/READM.md)
+## [TypeScript](./TypeScript/README.md)
+## [NodeJs](./Node/README.md)
