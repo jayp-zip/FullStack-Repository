@@ -1,10 +1,11 @@
 # Sumário 👀
 ## Projetos 💻
-* JavaScript - [NodeList]() 
-* JavaScript - [Cronômetro]() 
-* JavaScript - [Lista de Tarefas]() 
-* TypScript - [Andamento]() 
-* Node - [Andamento]() 
+* JS ﾠ ﾠ - [Calculadora](./Projetos//%5B%2004%20%5D%20Calculadora/) 
+* JS ﾠ ﾠ - [Cronômetro](./Projetos/%5B%2002%20%5D%20Cronometro/) 
+* JS ﾠ ﾠ - [Lista de Tarefas](./Projetos/%5B%2003%20%5D%20ListaDetarefas/) 
+* JS ﾠ ﾠ - [NodeList](./Projetos/%5B%2001%20%5D%20NodeList/) 
+* TS ﾠ ﾠ - [Andamento]() 
+* Node ﾠ- [Andamento]() 
 
 ### Link para documentação
 #### [JavaSript](./JavaScript/README.md)
