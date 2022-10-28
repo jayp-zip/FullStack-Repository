@@ -1,4 +1,4 @@
-[Voltar para seções 📘](../JavaScript/README.md)
+[Voltar para seções 📘](../README.md)
 
 ## Seções
 * [**Funções**](./%5B01%5D%20JS-Funcoes/README.md) 
