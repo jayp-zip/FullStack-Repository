@@ -1,1 +1,1 @@
-# Anotções de TS
+[voltar para sumário](../README.md)

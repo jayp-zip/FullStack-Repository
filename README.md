@@ -6,7 +6,26 @@
 * TypScript - [Andamento]() 
 * Node - [Andamento]() 
 
-### Linguagem, Framework e Bibliotecas utilizadas
-## [JavaSript ](./JavaScript/README.md)
-## [TypeScript](./TypeScript/README.md)
-## [NodeJs](./Node/README.md)
+### Link para documentação
+#### [JavaSript](./JavaScript/README.md)
+#### [TypeScript](./TypeScript/README.md)
+#### [NodeJs](./Node/README.md)
+
+# Linguagem, Framework e Bibliotecas utilizadas
+* JavaSript
+* TypeScript
+* React
+* NextJS
+* ES6
+* PostgerSQL
+* WebPack
+* Babel
+* React Hooks
+* Redux
+* HTML
+* CSS
+* Node
+* Express
+* MySql
+* MariaDB
+* MongoDB
