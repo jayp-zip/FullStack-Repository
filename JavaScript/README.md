@@ -1,14 +1,12 @@
 [Voltar para sumário 📘](../README.md)
 
-# Anotções de JavaSript
+# Anotações de JavaSript
 
-### Funções
-
-##### Callback
-
+# Funções
+## **CallBack** 
 ```javascript
 /*
-Callback: Callback são funções que sào executadas quando uma "ação" ocorre e 
+Callback: Callback são funções que são executadas quando uma "ação" ocorre e 
 quando a fução finaliza, ela tambèm é executada.
 
 No exemplo abaixo, fizemos quatros funções:
@@ -56,9 +54,7 @@ funcaoUM(function () {
   });
 });
 ```
-
-##### Closures
-
+## **Closures** 
 ```javascript
 /*
 Closures: É a habilidade de determinada função acessar seu escopo léxico.
@@ -78,9 +74,7 @@ function retornaFucao() {
 const funcao = retornaFucao();
 console.dir(funcao);
 ```
-
-##### Factory Fanction
-
+## **Factory Fanction** 
 ```javascript
 /*
   Factory Fanction: Função Fabrica
@@ -123,9 +117,7 @@ console.log(pessoaUm.imc);
 console.log(pessoaDois.imc);
 console.log(pessoaTres.imc);
 ```
-
-##### Generating Fanction
-
+## **Generating Fanction** 
 ```javascript
 /*
 Funcão Geradora: São funções que espera um determinado tempo para chamar determinada tarefas
@@ -205,9 +197,7 @@ const funcaoDois = recebeGeradoraComFuncoesDentro.next().value;
 funcaoUm();
 funcaoDois();
 ```
-
-##### IEFF
-
+## **IEFF** 
 ```javascript
 /*
   IIEF -> Immediately invoke function expression
@@ -224,9 +214,7 @@ funcaoDois();
 const nome = "Felipe, está no escopo global";
 console.log(nome);
 ```
-
-##### Recursive Function
-
+## **Recursive Function** 
 ```javascript
 /*
 Funções recursivas são funções que chamam elas mesmas
