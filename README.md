@@ -35,8 +35,8 @@
 
 
 | <h3>🔨</h3> | <h3> Ferramentas Utilizadas  </h3>    | <h3 >🔧 </h3>|
-| ----------- | ---------- | -------------- |
-| Front-End   | Back-End   | Banco de Dados |
+|  :---:  |  :---:  |  :---:  |
+| <h3>Front-End</h3>   | <h3>Back-End</h3>   | <h3>Banco de Dados</h3> |
 | JavaScript  | TypeScript | MySql          |
 | React       | Node       | PostgreSQL     |
 | ES6         | Express    | MySql          |
