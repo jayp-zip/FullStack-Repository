@@ -18,7 +18,7 @@ function iniciarTempo(params) {
     timer = setInterval(() => {
     segundos++
     tempo.innerHTML = criarTempo(segundos)
-  }, 100)
+  }, 1000)
 }
 iniciar.addEventListener('click', function (e) {
   tempo.classList.add('iniciado')
