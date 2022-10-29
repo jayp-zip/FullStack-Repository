@@ -41,20 +41,34 @@
   </tr>
 </table>
 
-
-| <h3>🔨</h3> | <h3> Ferramentas Utilizadas  </h3>    | <h3 >🔧 </h3>|
-| ----------- | ---------- | -------------- |
-| Front-End   | Back-End   | Banco de Dados |
-| JavaScript  | TypeScript | MySql          |
-| React       | Node       | PostgreSQL     |
-| ES6         | Express    | MySql          |
-| WebPack     |            | MariaDB        |
-| Babel       |            | MongoDB        |
-| React Hooks |            |                |
-| Redux       |            |                |
-| HTML        |            |                |
-| CSS         |            |                |
-
+<div align="center" style="display: flex; flex-direction: row; grid-gap:100px;">
+  <div>
+    <h3> Front-End </h3>
+          JavaScript
+    </br> React Hooks
+    </br> WebPack
+    </br> React
+    </br> Babel
+    </br> Redux
+    </br> HTML
+    </br> ES6
+    </br> CSS
+  </div>
+  
+  <div>
+    <h3> Back-End</h3>
+          TypeScript
+    </br> Node
+    </br> Express
+  </div>
+  
+  <div>
+    <h3> Banco de Dados</h3>
+          MySql
+    </br> PostgreSQL
+    </br> MariaDB
+    </br> MongoDB
+  </div>
 
 </div>
 
