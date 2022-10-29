@@ -1,6 +1,14 @@
-# Repositório Full-Stack 🤖☕
+</br>
+<h1 align="center">Repositório Full-Stack 🤖☕</h1>
+</br>
 
 ### Este repositório tem como objetivo principal documentar meu processo de aprendizagem como Desenvolvedor Full-Stack
+
+#### 🤯 ANOTAÇÕES
+
+- <a href="./JavaScript/README.md"> JavaScript</a>
+- <a href="./TypeScript/README.md"> TypeScript</a>
+- <a href="./Node/README.md"> Node</a>
 
 <table>
   <tr>
@@ -33,33 +41,34 @@
   </tr>
 </table>
 
+<div align="center" style="display: flex; flex-direction: row; grid-gap:100px;">
+  <div>
+    <h3> Front-End </h3>
+          JavaScript
+    </br> React Hooks
+    </br> WebPack
+    </br> React
+    </br> Babel
+    </br> Redux
+    </br> HTML
+    </br> ES6
+    </br> CSS
+  </div>
+  
+  <div>
+    <h3> Back-End</h3>
+          TypeScript
+    </br> Node
+    </br> Express
+  </div>
+  
+  <div>
+    <h3> Banco de Dados</h3>
+          MySql
+    </br> PostgreSQL
+    </br> MariaDB
+    </br> MongoDB
+  </div>
 
-| <h3>🔨</h3> | <h3> Ferramentas Utilizadas  </h3>    | <h3 >🔧 </h3>|
-| ----------- | ---------- | -------------- |
-| Front-End   | Back-End   | Banco de Dados |
-| JavaScript  | TypeScript | MySql          |
-| React       | Node       | PostgreSQL     |
-| ES6         | Express    | MySql          |
-| WebPack     |            | MariaDB        |
-| Babel       |            | MongoDB        |
-| React Hooks |            |                |
-| Redux       |            |                |
-| HTML        |            |                |
-| CSS         |            |                |
-
-
-<table>
-  <tr>
-    <th colspan="1"><h3>🤯 IMPORTANTE</h3></th>
-  </tr>
-  <tr>
-    <td><a href="./JavaScript/README.md"> JavaScript</a></td>
-  </tr>
-  <tr>
-    <td><a href="./TypeScript/README.md"> TypeScript</a></td>
-  </tr>
-  <tr>
-    <td><a href="./Node/README.md"> Node</a></td>
-  </tr>
-</table>
+</div>
 
