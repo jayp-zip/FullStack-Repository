@@ -16,10 +16,14 @@ e depois a cadeia de prrótotipos é usada paraaté o topo (null) até encontrar
 function Pessoa(nome, sobrenome) {
   this.nome = nome;
   this.sobrenome = sobrenome;
-  this.nomeCompleto = () => this.nome + "" + this.sobrenome;
+}
+Pessoa.prototype.nomeCompleto = function (){
+  return this.nome + "" + this.sobrenome;
 }
 
 // Instanciando 
-const pessoa1 = new Pessoa('João', 'Vitor')
+const pessoa1 = new Pessoa('João ','Vitor')  
+const pessoa2 = new Pessoa('Vitor ','Vitor')  
 
-
+console.log(pessoa1.nomeCompleto());
+console.log(pessoa2.nomeCompleto());
