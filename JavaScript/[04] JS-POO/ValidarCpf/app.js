@@ -27,7 +27,7 @@ class validaCPF {
 
     }
     const digito = 11 - (total % 11);
-    return digito <= 9 ? String(digito) : "0"ç
+    return digito <= 9 ? String(digito) : "0";
   }
   valida() {
     if (!this.cpfLimpo) return "CPF no formato inválido";
