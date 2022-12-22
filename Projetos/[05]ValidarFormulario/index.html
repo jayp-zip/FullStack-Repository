@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+
+<body>
+  <section>
+    Formulário de cadastro <br><br>
+    <ul>
+      <li><b>Validações a se fazer</b></li>
+      <li>Todos os campos devem sem preenchidos</li>
+      <li>Nome de usuario só pode conter letras e/ou numeros</li>
+      <li>Nome de usuario deve ter entre 3 e 12 caracteres</li>
+      <li>Senha precisa conter entre 6 e 12 caracteres</li>
+    </ul>
+  </section>
+  <form action="/" method="post" class="formulario">
+      <label>Nome</label>
+      <input type="text" placeholder="insira seu nome" class="input-form nome valida">
+
+      <label>Sobrenome</label>
+      <input type="text" placeholder="insira seu sobrenome" class="input-form sobrenome valida">
+
+      <label>CPF</label>
+      <input type="text" placeholder="cpf" class="input-form cpf valida">
+
+      <label>Usuario</label>
+      <input type="text" placeholder="usuario" class="input-form usuario valida">
+
+      <label>Senha</label>
+      <input type="password" class="input-form senha valida">
+      <label>Repita Senha</label>
+
+      <input type="password"  class="input-form repete-senha valida">
+      <button type="submit"><=Enviar>= </button>
+
+  </form>
+  <script src="validaCPF.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
