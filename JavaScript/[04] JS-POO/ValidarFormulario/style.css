@@ -13,7 +13,7 @@ body{
   flex-direction: column;
   grid-gap: 20px;
 }           
-.fomulario{
+.formulario{
   width: auto;
   display: flex;
   justify-content: space-around;
@@ -36,5 +36,9 @@ button{
 button:hover{
   background-color: white;
   color: black;
+}
+.error-text {
+  font-size: 10px;
+  color: rgb(255, 0, 0);
 }
 
