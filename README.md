@@ -53,7 +53,7 @@
     <td><a href="">  Andamento </a></td>
   </tr>
   <tr>
-    <td><a href="./Projetos/[06]validaCPF">  Gerando&Validando CPF </a></td>
+    <td><a href="./Projetos/validaCPF">  Gerando&Validando CPF </a></td>
     <td><a href="">  Andamento </a></td>
     <td><a href="">  Andamento </a></td>
   </tr>
